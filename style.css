@@ -1,0 +1,22 @@
+body{
+    background:black;
+}
+img{
+animation: rotatingimage infinite 3s;
+/* margin-left for to center the image */
+margin-left: 456px;
+}
+@keyframes rotatingimage {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+
+    
+}
+h1{
+    color:white;
+    text-align: center;
+}
